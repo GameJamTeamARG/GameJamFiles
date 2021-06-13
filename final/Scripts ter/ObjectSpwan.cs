@@ -11,6 +11,7 @@ public class ObjectSpwan : MonoBehaviour
     public GameObject rock2;
     public GameObject rock3;
     public GameObject House;
+    public GameObject Player;
     public GameObject Car1;
     public GameObject Car2;
     public GameObject Car3;
@@ -47,8 +48,12 @@ public class ObjectSpwan : MonoBehaviour
         int xmax = (x * plane) + 10;
         int ymin = (y * plane) - 10;
         int ymax = (y * plane) + 10;
+        int xh = Random.Range(xmin, xmax);
+        int zh = Random.Range(ymin, ymax);
         GameObject h = Instantiate(House) as GameObject;
-        h.transform.position = new Vector3(Random.Range(xmin, xmax), 30, Random.Range(ymin, ymax));
+        h.transform.position = new Vector3(xh, 30, zh);
+        GameObject p = Instantiate(Player) as GameObject;
+        p.transform.position = new Vector3(xh, 30, zh);
     }
     private void DependGen(int x, int y, GameObject prefab, float num)
     {
