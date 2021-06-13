@@ -1,0 +1,389 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - Assets/Blender.meta
+    - Assets/Blender/Battery.meta
+    - Assets/Blender/Battery/Battery render.png
+    - Assets/Blender/Battery/Battery render.png.meta
+    - Assets/Blender/Battery/BatteryIcon.prefab
+    - Assets/Blender/Battery/BatteryIcon.prefab.meta
+    - Assets/Blender/Battery/battery.blend
+    - Assets/Blender/Battery/battery.blend.meta
+    - Assets/Blender/Battery/battery.prefab
+    - Assets/Blender/Battery/battery.prefab.meta
+    - Assets/Blender/Cables.meta
+    - Assets/Blender/Cables/CableIcon.prefab
+    - Assets/Blender/Cables/CableIcon.prefab.meta
+    - Assets/Blender/Cables/cables render.png
+    - Assets/Blender/Cables/cables render.png.meta
+    - Assets/Blender/Cables/cables.blend
+    - Assets/Blender/Cables/cables.blend.meta
+    - Assets/Blender/Cables/cables.prefab
+    - Assets/Blender/Cables/cables.prefab.meta
+    - Assets/Blender/Copper.meta
+    - Assets/Blender/Copper/CopperIcon.prefab
+    - Assets/Blender/Copper/CopperIcon.prefab.meta
+    - Assets/Blender/Copper/copepr 1 1.prefab
+    - Assets/Blender/Copper/copepr 1 1.prefab.meta
+    - Assets/Blender/Copper/copepr.blend
+    - Assets/Blender/Copper/copepr.blend.meta
+    - Assets/Blender/Copper/copper.png
+    - Assets/Blender/Copper/copper.png.meta
+    - Assets/Blender/Crafting.meta
+    - Assets/Blender/Crafting/Work Bench.fbx
+    - Assets/Blender/Crafting/Work Bench.fbx.meta
+    - Assets/Blender/Crafting/Work Bench.prefab
+    - Assets/Blender/Crafting/Work Bench.prefab.meta
+    - Assets/Blender/Crafting/WorkBench Wood.png
+    - Assets/Blender/Crafting/WorkBench Wood.png.meta
+    - Assets/Blender/Gears.meta
+    - Assets/Blender/Gears/GearIcon.prefab
+    - Assets/Blender/Gears/GearIcon.prefab.meta
+    - Assets/Blender/Gears/gear 1 1.prefab
+    - Assets/Blender/Gears/gear 1 1.prefab.meta
+    - Assets/Blender/Gears/gear.blend
+    - Assets/Blender/Gears/gear.blend.meta
+    - Assets/Blender/Gears/gear.png
+    - Assets/Blender/Gears/gear.png.meta
+    - Assets/Blender/House.meta
+    - Assets/Blender/House/Materials.meta
+    - Assets/Blender/House/Materials/Bricks01_3K.mat
+    - Assets/Blender/House/Materials/Bricks01_3K.mat.meta
+    - Assets/Blender/House/Materials/Bricks01_COL_VAR1_3K.mat
+    - Assets/Blender/House/Materials/Bricks01_COL_VAR1_3K.mat.meta
+    - Assets/Blender/House/Materials/House bricks bake.mat
+    - Assets/Blender/House/Materials/House bricks bake.mat.meta
+    - Assets/Blender/House/Materials/House bricks bake.png
+    - Assets/Blender/House/Materials/House bricks bake.png.meta
+    - Assets/Blender/House/Materials/Material.001.mat
+    - Assets/Blender/House/Materials/Material.001.mat.meta
+    - Assets/Blender/House/Materials/Material.002.mat
+    - Assets/Blender/House/Materials/Material.002.mat.meta
+    - Assets/Blender/House/Materials/Wood Floor Bake.mat
+    - Assets/Blender/House/Materials/Wood Floor Bake.mat.meta
+    - Assets/Blender/House/Materials/Wood Floor Bake.png
+    - Assets/Blender/House/Materials/Wood Floor Bake.png.meta
+    - Assets/Blender/House/Materials/WoodFlooring044_3K.mat
+    - Assets/Blender/House/Materials/WoodFlooring044_3K.mat.meta
+    - Assets/Blender/House/casa.blend
+    - Assets/Blender/House/casa.blend.meta
+    - Assets/Blender/House/casa.blend1
+    - Assets/Blender/House/casa.blend1.meta
+    - Assets/Blender/House/casa.prefab
+    - Assets/Blender/House/casa.prefab.meta
+    - Assets/Blender/Log.meta
+    - Assets/Blender/Log/LogPrefab.prefab
+    - Assets/Blender/Log/LogPrefab.prefab.meta
+    - Assets/Blender/Log/baked timber.png
+    - Assets/Blender/Log/baked timber.png.meta
+    - Assets/Blender/Log/timber.blend
+    - Assets/Blender/Log/timber.blend.meta
+    - Assets/Blender/MechKit.meta
+    - Assets/Blender/MechKit/MechKitIcon.prefab
+    - Assets/Blender/MechKit/MechKitIcon.prefab.meta
+    - Assets/Blender/MechKit/Work Bench.blend
+    - Assets/Blender/MechKit/Work Bench.blend.meta
+    - Assets/Blender/MechKit/mechanical kit.png
+    - Assets/Blender/MechKit/mechanical kit.png.meta
+    - Assets/Blender/MechKit/wiring kit.blend
+    - Assets/Blender/MechKit/wiring kit.blend.meta
+    - Assets/Blender/MechKit/wiring kit.prefab
+    - Assets/Blender/MechKit/wiring kit.prefab.meta
+    - Assets/Blender/Rubber.meta
+    - Assets/Blender/Rubber/Rubber.png
+    - Assets/Blender/Rubber/Rubber.png.meta
+    - Assets/Blender/Rubber/RubberIcon.prefab
+    - Assets/Blender/Rubber/RubberIcon.prefab.meta
+    - Assets/Blender/Rubber/rubber.blend
+    - Assets/Blender/Rubber/rubber.blend.meta
+    - Assets/Blender/Rubber/rubber.prefab
+    - Assets/Blender/Rubber/rubber.prefab.meta
+    - Assets/Blender/generator.meta
+    - Assets/Blender/generator/Generator Glass.png
+    - Assets/Blender/generator/Generator Glass.png.meta
+    - Assets/Blender/generator/generator.blend
+    - Assets/Blender/generator/generator.blend.meta
+    - Assets/Blender/generator/generator.prefab
+    - Assets/Blender/generator/generator.prefab.meta
+    - Assets/Cold in the dark (final).mp3
+    - Assets/Cold in the dark (final).mp3.meta
+    - Assets/EventSystem.prefab
+    - Assets/EventSystem.prefab.meta
+    - Assets/Imagenes.meta
+    - Assets/Imagenes/Crafting recepies.png
+    - Assets/Imagenes/Crafting recepies.png.meta
+    - Assets/Imagenes/GeneratorHover.png
+    - Assets/Imagenes/GeneratorHover.png.meta
+    - Assets/Imagenes/LogIcon.prefab
+    - Assets/Imagenes/LogIcon.prefab.meta
+    - Assets/Imagenes/Slot.png
+    - Assets/Imagenes/Slot.png.meta
+    - Assets/Imagenes/timberpng.png
+    - Assets/Imagenes/timberpng.png.meta
+    - Assets/Music.meta
+    - Assets/Music/Cold_in_the_Dark_2.mp3
+    - Assets/Music/Cold_in_the_Dark_2.mp3.meta
+    - Assets/Music/y2mate.com_-_When_the_imposter_is_sus_tiktok_when_the_impostor_is_sus.mp3
+    - Assets/Music/y2mate.com_-_When_the_imposter_is_sus_tiktok_when_the_impostor_is_sus.mp3.meta
+    - Assets/New Terrain.asset
+    - Assets/New Terrain.asset.meta
+    - Assets/Panel.controller
+    - Assets/Panel.controller.meta
+    - Assets/Player.prefab
+    - Assets/Player.prefab.meta
+    - Assets/Prefab/Canvas 1.prefab
+    - Assets/Prefab/Canvas 1.prefab.meta
+    - Assets/Prefab/Car.prefab
+    - Assets/Prefab/Car.prefab.meta
+    - Assets/Prefab/GameObject.prefab
+    - Assets/Prefab/GameObject.prefab.meta
+    - Assets/Prefab/Player.prefab
+    - Assets/Prefab/Player.prefab.meta
+    - Assets/Prefab/Safe Zone.prefab
+    - Assets/Prefab/Safe Zone.prefab.meta
+    - Assets/Prefab/character 3 .blend
+    - Assets/Prefab/character 3 .blend.meta
+    - Assets/Prefab/character 3 .controller
+    - Assets/Prefab/character 3 .controller.meta
+    - Assets/Prefab/character 3 idle posta.blend
+    - Assets/Prefab/character 3 idle posta.blend.meta
+    - Assets/Prefab/house.mat
+    - Assets/Prefab/house.prefab
+    - Assets/Prefab/le tree.fbx
+    - Assets/Prefab/le tree.fbx.meta
+    - Assets/Prefab/rock (1).prefab
+    - Assets/Prefab/rock (1).prefab.meta
+    - Assets/Prefab/rock (2).prefab
+    - Assets/Prefab/rock (2).prefab.meta
+    - Assets/Prefab/rock (3).prefab
+    - Assets/Prefab/rock (3).prefab.meta
+    - Assets/Prefab/rock 1.fbx
+    - Assets/Prefab/rock 1.fbx.meta
+    - Assets/Prefab/rock 2.fbx
+    - Assets/Prefab/rock 2.fbx.meta
+    - Assets/Prefab/rock 3.fbx
+    - Assets/Prefab/rock 3.fbx.meta
+    - Assets/Prefab/rock 4.fbx
+    - Assets/Prefab/rock 4.fbx.meta
+    - Assets/Prefab/rock.prefab
+    - Assets/Prefab/rock.prefab.meta
+    - Assets/Prefab/tarain plane.prefab
+    - Assets/Prefab/tool.prefab
+    - Assets/Prefab/tool.prefab.meta
+    - Assets/Scripts ter.meta
+    - Assets/Scripts ter/LevelGeneration.cs
+    - Assets/Scripts ter/LevelGeneration.cs.meta
+    - Assets/Scripts ter/TileGeneration.cs
+    - Assets/Scripts ter/TileGeneration.cs.meta
+    - Assets/Scripts ter/Treeeeeeeee.cs
+    - Assets/Scripts ter/Treeeeeeeee.cs.meta
+    - Assets/Scripts ter/gravity.cs
+    - Assets/Scripts ter/gravity.cs.meta
+    - Assets/Scripts.meta
+    - Assets/Scripts/CamaraControll.cs
+    - Assets/Scripts/CamaraControll.cs.meta
+    - Assets/Scripts/DropItems.cs
+    - Assets/Scripts/DropItems.cs.meta
+    - Assets/Scripts/GrabItems.cs
+    - Assets/Scripts/GrabItems.cs.meta
+    - Assets/Scripts/Inventory.cs
+    - Assets/Scripts/Inventory.cs.meta
+    - Assets/Scripts/LevelGeneration.cs
+    - Assets/Scripts/LevelGeneration.cs.meta
+    - Assets/Scripts/Movement.cs
+    - Assets/Scripts/Movement.cs.meta
+    - Assets/Scripts/ObjectInteractions.cs
+    - Assets/Scripts/ObjectInteractions.cs.meta
+    - Assets/Scripts/ObjectSpwan.cs
+    - Assets/Scripts/ObjectSpwan.cs.meta
+    - Assets/Scripts/SafeZoneSensor.cs
+    - Assets/Scripts/SafeZoneSensor.cs.meta
+    - Assets/Scripts/TileGeneration.cs
+    - Assets/Scripts/TileGeneration.cs.meta
+    - Assets/Scripts/Timer.cs
+    - Assets/Scripts/Timer.cs.meta
+    - Assets/Scripts/actions.cs
+    - Assets/Scripts/actions.cs.meta
+    - Assets/Scripts/changeScenes.cs
+    - Assets/Scripts/changeScenes.cs.meta
+    - Assets/Scripts/main.cs
+    - Assets/Scripts/main.cs.meta
+    - Assets/Scripts/music.cs
+    - Assets/Scripts/music.cs.meta
+    - Assets/Scripts/toolkit.cs
+    - Assets/Scripts/toolkit.cs.meta
+    - Assets/Tests.unity
+    - Assets/Tests.unity.meta
+    - Assets/TextMesh Pro.meta
+    - Assets/TextMesh Pro/Documentation.meta
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta
+    - Assets/TextMesh Pro/Fonts.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta
+    - Assets/TextMesh Pro/Resources.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LICENSE.txt
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LICENSE.txt.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/Roboto-Black.ttf
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/Roboto-Black.ttf.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/Roboto-BlackItalic.ttf
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/Roboto-BlackItalic.ttf.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/Roboto-Bold.ttf
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/Roboto-Bold.ttf.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/Roboto-BoldItalic.ttf
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/Roboto-BoldItalic.ttf.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/Roboto-Italic.ttf
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/Roboto-Italic.ttf.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/Roboto-Light.ttf
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/Roboto-Light.ttf.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/Roboto-LightItalic.ttf
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/Roboto-LightItalic.ttf.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/Roboto-Medium.ttf
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/Roboto-Medium.ttf.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/Roboto-MediumItalic.ttf
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/Roboto-MediumItalic.ttf.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/Roboto-Regular.ttf
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/Roboto-Regular.ttf.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/Roboto-Thin.ttf
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/Roboto-Thin.ttf.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/Roboto-ThinItalic.ttf
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/Roboto-ThinItalic.ttf.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset.meta
+    - Assets/TextMesh Pro/Shaders.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta
+    - Assets/TextMesh Pro/Sprites.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png.meta
+    - Assets/Theme of generator.mp3
+    - Assets/Theme of generator.mp3.meta
+    - Assets/Theme of wasteland.mp3
+    - Assets/Theme of wasteland.mp3.meta
+    - Assets/animP.cs
+    - Assets/animP.cs.meta
+    - Assets/canvas.meta
+    - Assets/canvas/Crafting.prefab
+    - Assets/canvas/Crafting.prefab.meta
+    - Assets/canvas/GTimer.prefab
+    - Assets/canvas/GTimer.prefab.meta
+    - Assets/canvas/GeneratorCharge.prefab
+    - Assets/canvas/GeneratorCharge.prefab.meta
+    - Assets/canvas/GeneratorFix.prefab
+    - Assets/canvas/GeneratorFix.prefab.meta
+    - Assets/canvas/GeneratorUpgrade.prefab
+    - Assets/canvas/GeneratorUpgrade.prefab.meta
+    - Assets/canvas/Ptimer.prefab
+    - Assets/canvas/Ptimer.prefab.meta
+    - Assets/canvas/Slot (1).prefab
+    - Assets/canvas/Slot (1).prefab.meta
+    - Assets/canvas/Slot (2).prefab
+    - Assets/canvas/Slot (2).prefab.meta
+    - Assets/canvas/Slot (3).prefab
+    - Assets/canvas/Slot (3).prefab.meta
+    - Assets/canvas/Slot (4).prefab
+    - Assets/canvas/Slot (4).prefab.meta
+    - Assets/canvas/Slot (5).prefab
+    - Assets/canvas/Slot (5).prefab.meta
+    - Assets/canvas/Slot.prefab
+    - Assets/canvas/Slot.prefab.meta
+    - Assets/gravity.cs
+    - Assets/gravity.cs.meta
+    - Assets/level.unity
+    - Assets/level.unity.meta
+    - Assets/load.anim
+    - Assets/load.anim.meta
+    - Assets/lod.cs
+    - Assets/lod.cs.meta
+    - Assets/lost.meta
+    - Assets/lost.unity
+    - Assets/lost.unity.meta
+    - Assets/lost/LightingData.asset
+    - Assets/lost/LightingData.asset.meta
+    - Assets/lost/ReflectionProbe-0.exr
+    - Assets/lost/ReflectionProbe-0.exr.meta
+    - Assets/render inicio juego.png
+    - Assets/render inicio juego.png.meta
+    - Assets/start.unity
+    - Assets/start.unity.meta
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/InputManager.asset
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/TagManager.asset
+    - 
+    m_Values: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
